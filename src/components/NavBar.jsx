@@ -2,7 +2,7 @@ import {Link} from 'react-router-dom'
 import { useKeycloak } from '@react-keycloak/web'
 
 export default function NavBar() {
-  const { keycloak, initialized } = useKeycloak()
+  const { keycloak } = useKeycloak()
   return (
     <>
     <div className='flex justify-around items-center py-5 bg-[#234] text-white'>

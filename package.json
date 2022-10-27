@@ -1,0 +1,48 @@
+{
+  "name": "test-template-vite2",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "i18next": "^22.0.2",
+    "i18next-browser-languagedetector": "^6.1.8",
+    "keycloak-js": "^17.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-i18next": "^12.0.0",
+    "react-router-dom": "^6.4.2"
+  },
+  "scripts": {
+    "dev": "vite",
+    "vite-build": "vite build",
+    "preview": "vite preview"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@react-keycloak/web": "^3.4.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^14.4.3",
+    "@vitejs/plugin-react": "^2.2.0",
+    "autoprefixer": "^10.4.12",
+    "postcss": "^8.4.18",
+    "tailwindcss": "^3.2.1",
+    "vite": "^3.2.0"
+  }
+}

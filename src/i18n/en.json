@@ -1,0 +1,6 @@
+  {
+      "title": "Welcome to React using react-i18next",
+      "description": {
+        "part1": "Switch language between english and french using buttons above."
+      }
+    }

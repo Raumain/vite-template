@@ -1,6 +1,23 @@
-  {
-      "title": "Welcome to React using react-i18next",
-      "description": {
-        "part1": "Switch language between english and french using buttons above."
-      }
-    }
+{
+  "navbar": {
+    "title": "React Template with Vite",
+    "lien1": "Home",
+    "lien3": "Resource"
+  },
+  "title": "Welcome to React using react-i18next",
+  "description": {
+    "part1": "Switch language between english and french using buttons above."
+  },
+  "ressource": {
+    "security-message": "This is a Keycloak-secured component of your application. You shouldn't be able to see this unless you've authenticated with Keycloak."
+  },
+  "footer": "Some text for the footer",
+  "403": {
+    "h1": "You cannot acces this page : ",
+    "p": "Unable to authenticate you"
+  },
+  "404": {
+    "h1": "Error 404",
+    "p": "Page not found"
+  }
+}

@@ -1,6 +1,23 @@
 {
-    "title": "Bienvenue dans React avec react-i18next",
-    "description": {
-      "part1": "Changez de langue entre l'anglais et le français en utilisant les boutons ci-dessus."
-    }
+  "navbar": {
+    "title": "Template React avec Vite",
+    "lien1": "Accueil",
+    "lien3": "Ressource"
+  },
+  "title": "Bienvenue dans React avec react-i18next",
+  "description": {
+    "part1": "Changez de langue entre l'anglais et le français en utilisant les boutons ci-dessus."
+  },
+  "ressource": {
+    "security-message": "Ceci est un composant sécruisé Keycloack de votre application. Vous ne devriez pas pouvoir le voir à moins d'être authentifié avec Keycloak"
+  },
+  "footer": "Du texte pour le footer",
+  "403": {
+    "h1": "Vous ne pouvez pas accéder à cette page",
+    "p": "Impossible de vous authentifier"
+  },
+  "404": {
+    "h1": "Erreur 404",
+    "p": "Page non trouvée"
   }
+}

@@ -1,4 +1,4 @@
-import { Trans, useTranslation } from 'react-i18next'
+import { useTranslation } from 'react-i18next'
 
 export default function Home() {
   const { t, i18n } = useTranslation()
@@ -14,9 +14,9 @@ export default function Home() {
           <button className="bg-[#234] text-white uppercase px-2 mr-3 rounded" onClick={() => changeLanguage('en')}>en</button>
         </span>
         <br />
-        <Trans i18nKey="title">{t('title')}</Trans>
+        <span>{t('title')}</span>
         <br />
-        <Trans i18nKey="description.part1">{t('description.part1')}</Trans>
+        <span>{t('description.part1')}</span>
         <br />
         </p>
       </div>
